@@ -40,7 +40,7 @@ export default defineConfig({
   adapter: netlify({
     imageCDN: false,
   }),
-  site: "https://quantum.cosmicthemes.com",
+  site: "https://www.khacminhdau.com",
   redirects: {
     "/admin": "/keystatic",
   },
