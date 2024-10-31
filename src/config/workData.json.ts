@@ -7,24 +7,24 @@ export interface jobItem {
 // note: 1 level of dropdown is supported
 const workData: jobItem[] = [
   {
-    company: "HTMX",
+    company: "BusPilot",
+    title: "CEO",
+    dateRange: "2022 - Present",
+  },
+  {
+    company: "Westlake Web Designs",
     title: "CEO",
     dateRange: "2024 - Present",
   },
   {
-    company: "Build-a-Bear Workshop",
-    title: "Metaverse Architect",
-    dateRange: "2021 - 2023",
+    company: "SWE Intern",
+    title: "N2TP Solutions",
+    dateRange: "2023",
   },
   {
-    company: "Emojipedia",
-    title: "Chief Emoji Officer",
-    dateRange: "2013 - 2021",
-  },
-  {
-    company: "Bitcoin",
-    title: "Satoshi Nakamoto",
-    dateRange: "2008 - 2009",
+    company: "Code Works Company",
+    title: "Team Manager",
+    dateRange: "2023 - 2024",
   },
 ];
 

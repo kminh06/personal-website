@@ -23,6 +23,7 @@ export interface SocialLinkProps {
     | "slack"
     | "whatsapp"
     | "telegram"
+    | "spotify"
     | "email"; // you should always at least have an email
   link: string;
 }
@@ -50,30 +51,33 @@ export interface SiteDataProps {
 const siteData: SiteDataProps = {
   name: "Khac Minh Dau",
   // Your website's title and description (meta fields)
-  title:
-    "Khac Minh Dau",
+  title: "Khac Minh Dau",
   description:
     "Khac Minh Dau's personal website. I am a software engineer, a web developer, and a data scientist. I am passionate about technology and I love to learn new things. I am always looking for new opportunities to grow and improve myself.",
   useViewTransitions: true,
   useAnimations: true,
 
   socialLinks: [
-    {
-      platform: "twitter",
-      link: "https://twitter.com/BowTiedWebReapr",
-    },
-    {
-      platform: "instagram",
-      link: "https://www.instagram.com/bowtiedwebreaper/",
-    },
+    // {
+    //   platform: "twitter",
+    //   link: "https://twitter.com/BowTiedWebReapr",
+    // },
+    // {
+    //   platform: "instagram",
+    //   link: "https://www.instagram.com/kminh06/",
+    // },
     {
       platform: "github",
-      link: "https://github.com/Boston343",
+      link: "https://github.com/kminh06",
     },
     {
       // you should always at least have an email
       platform: "email",
-      link: "mailto:creator@cosmicthemes.com",
+      link: "mailto:daukhacminh006@gmail.com",
+    },
+    {
+      platform: "linkedin",
+      link: "https://www.linkedin.com/in/khac-minh-dau-1a1779230/",
     },
   ],
 

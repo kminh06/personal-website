@@ -7,43 +7,41 @@ export interface ProjectItem {
 
 // images
 import CosmicThemes from "@images/projects/cosmic-themes.png";
-import Galaxy from "@images/projects/galaxy.png";
+import WWD from "@images/projects/wwd-pre.png";
 import Stellar from "@images/projects/stellar.png";
 import TheVoid from "@images/projects/the-void.png";
+import BusPilot from "@images/projects/buspilot.png";
+import CodersUniversity from "@images/projects/codersuniversity.png";
 
 export const projectData: ProjectItem[] = [
   {
-    image: CosmicThemes,
-    title: "Cosmic Themes",
-    description: `Production-ready website templates crafted with Astro and Tailwind CSS. 
-    These are designed to save you weeks of time and get websites up and running in minutes.
+    image: BusPilot,
+    title: "BusPilot",
+    description: `A school transportation software designed to optimize bus routes and enhance student safety. Currently implemented in leading international schools in Hanoi.
     `,
-    href: new URL("https://cosmicthemes.com/"),
+    href: new URL("https://www.buspilot.app/"),
   },
   {
-    image: Galaxy,
-    title: "Galaxy",
-    description: `A stunning SaaS theme for Astro to introduct your next startup. 
-    It features a modern glow design with all the features you need.
+    image: WWD,
+    title: "Westlake Web Designs",
+    description: `An online web design agency building websites and online systems that help businesses drive growth. Tailored solutions for each client’s unique needs.
     `,
-    href: new URL("https://cosmicthemes.com/themes/galaxy/"),
+    href: new URL("https://www.westlakewebdesign.com/"),
   },
   {
-    image: Stellar,
-    title: "Stellar",
-    description: `A playful small business theme and blog for Astro, featuring fun free-hand illustrations and colorful blobs. 
-    This is perfect to use for any small businesses or personal blogs.
+    image: CodersUniversity,
+    title: "Coder's University",
+    description: `A cool online coding bootcamp teaching students real-world programming skills. Wanna learn coding? Click here:
     `,
-    href: new URL("https://cosmicthemes.com/themes/stellar/"),
+    href: new URL("https://www.joincodersuniversity.com/"),
   },
-  {
-    image: TheVoid,
-    title: "The Void",
-    description: `A sleek and modern blog template crafted with Astro and Tailwind CSS. 
-    This has all the features you would want for a blog, such as tags, categories, pagination, newsletter signup, light and dark theme toggle, and more.
-    `,
-    href: new URL("https://cosmicthemes.com/themes/the-void/"),
-  },
+  // {
+  //   image: TheVoid,
+  //   title: "DAU Records",
+  //   description: `An independent label with a mission to revive jazz by discovering and promoting emerging talent. We aim to bring fresh, innovative sounds to the genre while honoring its rich legacy.
+  //   `,
+  //   href: new URL("https://cosmicthemes.com/themes/the-void/"),
+  // },
 ];
 
 export default projectData;
